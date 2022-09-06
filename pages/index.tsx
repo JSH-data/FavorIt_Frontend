@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         <h2 className={styles.title}>Welcome!</h2>
         <br />
 
-        {/* 모달 adsdasdasasdadasdㅁㅁㄴㅇㅁㄴㅇㅁadsasasdasasdㄴㅇ */}
+        {/* 모달 adsdasdasasdadasdㅁㅁㄴㅇㅁㄴㅇㅁㄴㅇ */}
         <ButtonClose onClick={handleOpen}>Modal Open</ButtonClose>
         <Modal isOpen={isOpen} onClose={handleClose} selector="#modal">
           <ModalBody>
